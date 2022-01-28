@@ -1,0 +1,19 @@
+{
+    "name": "pixi-haxe-require",
+    "url": "https://github.com/bubba169/pixi-haxe-require",
+    "classPath": "src/",
+    "contributors": [
+        "bubba_169"
+    ],
+    "dependencies": {
+        "EventEmitter3": "1.0.1"
+    },
+    "description": "Externs for Pixi.js that can be bundled using a bundler such as webpack.",
+    "license": "Apache",
+    "releasenote": "Initial Release",
+    "version": "0.0.1",
+    "tags": [
+        "pixi",
+        "externs"
+    ]
+}
