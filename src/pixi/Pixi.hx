@@ -52,6 +52,13 @@ enum DRAW_MODES {
     TRIANGLE_FAN;
 }
 
+enum abstract MASK_TYPES(Int) {
+    var NONE = 0;
+    var SCISSOR = 1;
+    var STENCIL = 2;
+    var SPRITE = 3;
+}
+
 enum abstract MSAA_QUALITY(Int) {
     var NONE = 0;
     var LOW = 2;
